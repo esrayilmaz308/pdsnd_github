@@ -21,7 +21,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hi there! Let\'s explore some US bikeshare data!')
+    print('Welcome! Let\'s explore some US bikeshare data!')
 
     # get specified city  
     while True:
@@ -173,8 +173,8 @@ def trip_duration_stats(df):
 
 
     # display mean travel time
-    mean_travel_time = df['Trip Duration'].mean()
-    print('Mean Travel Time: {} seconds'.format(mean_travel_time))
+    mean_time = df['Trip Duration'].mean()
+    print('Mean Travel Time: {} seconds'.format(mean_time))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -251,7 +251,9 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
+            print('Goodbye!')
             break
+
 
 
 if __name__ == "__main__":
