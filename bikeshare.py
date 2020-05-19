@@ -216,7 +216,11 @@ def user_stats(df):
     print('-'*40)
 
 def show_rows(df):
-    "Displays raw data from the csv files"
+    """
+    Displays raw data from the csv files.
+    It shows 5 rows of data for each time user input is "yes"
+    
+    """
     
     #get the user input
     user_input=input("All done! Do you want to see the first 5 rows of data? Please enter 'yes' or 'no'\n").lower()
