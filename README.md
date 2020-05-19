@@ -7,7 +7,8 @@ Explore US Bikeshare Data
 ### Description
 The project tracks down the bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
 It shows a variety of descriptive statistics such as most common month, most common start station, counts of each user type etc.
-The users are able to choose a specific city, month or day. They are also free not to specify a month or day if they want.
+It can also display raw data from the csv files according to the user preference.The users are able to choose a city, month or day.
+They are also free not to specify a month or day if they want. 
 
 ### Files used
 bikeshare.py
